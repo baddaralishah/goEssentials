@@ -1,6 +1,6 @@
-//package goEssentials
+package goEssentials
 
-package main
+//package main
 
 import "fmt"
 
@@ -22,12 +22,28 @@ func introduce(name string, age int) string {
 	return data
 }
 
-func main() {
-	// Test your functions here
+func isAdult(age int) bool {
+	if age >= 18 {
+		return true
+	}
+	return false
+}
+
+func someRandomName() {
 	sum := add(15, 25)
 	product := multiply(8, 7)
 	introduction := introduce("Badar", 30)
+	bmi := calculateBMI(120, 185)
+	adultCheck := isAdult(30)
 
 	fmt.Printf("Sum: %d, Product: %d\n", sum, product)
-	fmt.Println(introduction)
+	fmt.Print(introduction) // Using Print since introduce already has newline
+	fmt.Printf("BMI: %.2f\n", bmi)
+	fmt.Printf("Is adult: %t\n", adultCheck)
+}
+
+func calculateBMI(weight float32, height float32) any {
+	height = height / 100
+	height = height * height
+	return weight / height
 }
