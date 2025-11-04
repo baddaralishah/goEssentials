@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func someRandomName() {
 
 	var name string = "Badar Ali" // normal decalation
 	var age = 30                  // without dataType declartion

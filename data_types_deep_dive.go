@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func someRandomName() {
 
 	/*
 		Variable complete declation
