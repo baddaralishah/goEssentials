@@ -1,4 +1,4 @@
-package main
+package goEssentials
 
 import "fmt"
 
@@ -6,7 +6,7 @@ var name string = "Badar Ali"
 var age = 30
 var country = "Austria"
 
-func main() {
+func someRandomName() {
 
 	basicDataFunction()
 	fmt.Println("Professionalism: ", goingProfessionalFunction(4.5, "Backend engineer"))

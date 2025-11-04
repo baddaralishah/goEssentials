@@ -1,4 +1,4 @@
-package main
+package goEssentials
 
 import "fmt"
 
