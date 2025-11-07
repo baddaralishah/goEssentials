@@ -6,7 +6,7 @@ var name string = "Badar Ali"
 var age = 30
 var country = "Austria"
 
-func someRandomName() {
+func functionEight() {
 
 	basicDataFunction()
 	fmt.Println("Professionalism: ", goingProfessionalFunction(4.5, "Backend engineer"))

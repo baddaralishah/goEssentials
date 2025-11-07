@@ -2,7 +2,7 @@ package goEssentials
 
 import "fmt"
 
-func someRandomName() {
+func functionFour() {
 
 	var name string = "Badar Ali" // normal decalation
 	var age = 30                  // without dataType declartion

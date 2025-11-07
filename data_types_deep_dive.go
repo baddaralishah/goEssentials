@@ -2,7 +2,7 @@ package goEssentials
 
 import "fmt"
 
-func someRandomName() {
+func functionTwo() {
 
 	/*
 		Variable complete declation

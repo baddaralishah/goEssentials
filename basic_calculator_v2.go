@@ -29,7 +29,7 @@ func isAdult(age int) bool {
 	return false
 }
 
-func someRandomName() {
+func functionSix() {
 	sum := add(15, 25)
 	product := multiply(8, 7)
 	introduction := introduce("Badar", 30)
@@ -42,8 +42,7 @@ func someRandomName() {
 	fmt.Printf("Is adult: %t\n", adultCheck)
 }
 
-func calculateBMI(weight float32, height float32) any {
-	height = height / 100
-	height = height * height
-	return weight / height
+func calculateBMI(weight int, height int) float64 {
+	heightInMeters := float64(height) / 100.0
+	return float64(weight) / (heightInMeters * heightInMeters)
 }
