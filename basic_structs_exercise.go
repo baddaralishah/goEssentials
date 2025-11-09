@@ -1,4 +1,4 @@
-package main
+package goEssential
 
 /*
 Exercise: Student Grade Analyzer
@@ -35,7 +35,7 @@ func GradeAverage(randomSlice []int) int {
 	return (int)(sum / len(randomSlice))
 }
 
-func main() {
+func functionThirteen() {
 
 	//creating some students with their respected grades
 	studentsSlice := []Student{
