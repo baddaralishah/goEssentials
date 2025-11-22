@@ -1,6 +1,9 @@
-package goEssentials
+package main
 
 import "fmt"
+
+var Name string = "Badar Ali" // normal decalation but package level and Capital
+var family string = "Naqvi"   // normal decalation but package level and small
 
 func functionFour() {
 

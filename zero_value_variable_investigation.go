@@ -1,4 +1,4 @@
-package main
+package goEssential
 
 /*
 Zero Value Investigation
@@ -22,7 +22,7 @@ type ShowStruct struct {
 	someRandomRune rune
 }
 
-func main() {
+func functionSixteen() {
 	var age int
 	var weight float64
 	var isHuman bool
