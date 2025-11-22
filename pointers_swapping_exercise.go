@@ -33,3 +33,13 @@ func fifteenFunction() {
 	// Expected: x=20, y=10
 
 }
+
+/*
+
+Key Learning Points:
+    & operator - Gets the address of a variable (&x)
+    * operator - Dereferences a pointer to get/set the value (*a)
+    Pointer parameters - Allow functions to modify original variables
+    No return needed - When using pointers, changes are reflected in the original variables
+
+*/
