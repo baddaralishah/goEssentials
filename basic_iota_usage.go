@@ -1,4 +1,4 @@
-package main
+package goEssential
 
 /*
 Basic iota Usage
@@ -25,7 +25,7 @@ const (
 	SATURDAY
 )
 
-func main() {
+func functionEighteen() {
 
 	dayMap := map[int]string{
 		SUNDAY:    "Sunday",

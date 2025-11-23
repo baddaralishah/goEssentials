@@ -1,5 +1,15 @@
-package main
+package goEssential
 
+/*
+Task Status Enumeration
+Create a set of status constants for a task management system:
+    Pending should have value 0
+    InProgress, Completed, Cancelled should auto-increment using iota
+Requirements:
+    Explicitly set Pending = 0
+    Use iota for the remaining statuses
+    Make it a typed constant for better type safety
+*/
 import "fmt"
 
 type TaskStatus int
@@ -11,7 +21,7 @@ const (
 	Cancelled
 )
 
-func main() {
+func functionNinteen() {
 
 	statusMap := map[TaskStatus]string{
 		Pending:    "PENDING",
