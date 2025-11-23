@@ -1,4 +1,4 @@
-package main
+package goEssential
 
 import (
 	"fmt"
@@ -22,7 +22,7 @@ func solvingPackageVariableShadowingProblem() {
 	fmt.Println("package scope variable: ", family)
 }
 
-func main() {
+func functionSeventeen() {
 
 	fmt.Println("package scope variable: ", Name)
 	fmt.Println("package scope variable: ", family)
